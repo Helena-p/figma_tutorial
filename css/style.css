@@ -1,3 +1,35 @@
-body {
-    background-color: beige;
+@import url(//db.onlinewebfonts.com/c/f1a22f6f15d272c7aa56da8b2c91f5e5?family=Circular+Std+Black);
+
+/* ----- Header with Navigation ----- */
+
+.header-nav {
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
 }
+h2 {
+    margin-left: 80px;
+    font-family: "Circular Std Black", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 160%;
+    /* or 48px */
+
+    letter-spacing: -0.02em;
+
+    color: #0A1B32;
+}
+.logo-dot {
+    color: #4F56F1;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+}
+
+/* ----- Textual Content ----- */
+/* ----- Image ----- */
