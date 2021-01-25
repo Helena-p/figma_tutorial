@@ -1,5 +1,9 @@
 @import url(//db.onlinewebfonts.com/c/f1a22f6f15d272c7aa56da8b2c91f5e5?family=Circular+Std+Black);
 
+body {
+    overflow: hidden;
+}
+
 /* ----- Header with Navigation ----- */
 
 .header-nav {
@@ -33,7 +37,7 @@ h2 {
     margin-right: 40px;
     align-items: center;
     font-family: "Roboto", sans-serif;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     /* identical to box height, or 150% */
@@ -48,9 +52,14 @@ h2 {
     margin-left: 20px;
 }
 
+#sign-in {
+    margin-left: 753px;
+}
+
 .btn-nav {
     width: 120px;
     height: 60px;
+    margin-left: 40px;
     background: #4F56F1;
     border-radius: 6px;
     font-family: "Roboto", sans-serif;
@@ -77,10 +86,11 @@ h2 {
     /* or 106% */
     letter-spacing: 0.02em;
     color: #1B0A42;
-    width: 495px;
+    width: 500px;
     height: 152px;
     margin-top: 208px;
     margin-left: 200px;
+    margin-bottom: 0;
 }
 
 .main__header-text {
@@ -121,8 +131,5 @@ h2 {
 .main__image {
     width: 653px;
     height: 604px;
-    margin-left: 115px;
-    margin-right: 94px;
-    margin-bottom: 130px;
-    margin-top: 114px;
+    margin: 114px 94px 130px 115px;
 }
