@@ -1,5 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/f1a22f6f15d272c7aa56da8b2c91f5e5?family=Circular+Std+Black);
 
+
 body {
     overflow: hidden;
 }
@@ -86,7 +87,7 @@ h2 {
     /* or 106% */
     letter-spacing: 0.02em;
     color: #1B0A42;
-    width: 500px;
+    width: 496px;
     height: 152px;
     margin-top: 208px;
     margin-left: 200px;
