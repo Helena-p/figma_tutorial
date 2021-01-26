@@ -1,5 +1,6 @@
 body {
     overflow: hidden;
+    margin: 0%;
 }
 
 /* ----- Header with Navigation ----- */
@@ -13,12 +14,12 @@ body {
 
 h2 {
     margin-left: 80px;
+    margin-top: 37px;;
     font-family: "Circular Std Black", sans-serif;
     font-weight: 900;
     font-size: 30px;
     line-height: 160%;
     /* or 48px */
-
     letter-spacing: -0.02em;
     color: #0A1B32;
 }
@@ -50,7 +51,7 @@ h2 {
 }
 
 #sign-in {
-    margin-left: 753px;
+    margin-left: auto;
 }
 
 .btn-nav {
