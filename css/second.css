@@ -85,6 +85,7 @@
 .btn-nav:hover {
     --hover: #5835a3;
     background-color: var(--hover);
+    cursor: pointer;
 }
 
 /* ----- Main Content ----- */
@@ -141,9 +142,33 @@
     color: var(--white);
 }
 
+.main__header-btn:hover {
+    --hover: #5835a3;
+    background-color: var(--hover);
+    cursor: pointer;
+}
+
 /* ----- Image ----- */
 .main__image {
-    width: 653px;
+    /* width: 653px;
     height: 604px;
-    margin: 114px 94px 130px 115px;
+    margin: 114px 94px 130px 115px; */
+}
+
+.img-base {
+    position: relative;
+    width: 658px;
+    height: 700px;
+    top: 56px;
+    left: 110px;
+    bottom: 82;
+    right: 90;
+}
+
+.img-top {
+    position: absolute;
+    width: 821px;
+    height: 509px;
+    right: 0;
+    top: 228px;
 }
