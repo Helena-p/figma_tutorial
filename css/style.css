@@ -48,6 +48,10 @@ body {
     margin-left: 40px;
 }
 
+.nav-list li:first-child {
+    margin-left: 57px;
+}
+
 #sign-in {
     margin-left: auto;
 }

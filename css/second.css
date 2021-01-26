@@ -61,6 +61,10 @@
     margin-left: 40px;
 }
 
+.navigation-list li:first-child {
+    margin-left: 57px
+}
+
 #sign-in {
     margin-left: auto;
 }
