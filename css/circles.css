@@ -18,5 +18,37 @@
 html,
 body {
     box-sizing: border-box;
-    background-color: var(--brown);
+    background-color: var(--yellow);
+    font-size: 62.5%
+}
+
+.container__first {
+    width: 27.3rem;
+    height: 22rem;
+    background-color: var(--blue);
+    margin: 1rem;
+}
+.container__second {
+    width: 27.3rem;
+    height: 22rem;
+    background-color: var(--red);
+    margin: 1rem;
+}
+.container__third {
+    width: 27.3rem;
+    height: 22rem;
+    background-color: var(--blue);
+    margin: 1rem;
+}
+.container__fourth {
+    width: 27.3rem;
+    height: 22rem;
+    background-color: var(--red);
+    margin: 1rem;
+}
+.container__fifth {
+    width: 27.3rem;
+    height: 22rem;
+    background-color: var(--blue);
+    margin: 1rem;
 }
