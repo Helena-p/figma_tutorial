@@ -21,6 +21,8 @@ body {
     box-sizing: border-box;
     background: var(--brown);
     font-size: 62.5%;
+    width: 100%;
+    height: 100vh;
 }
 
 .container {
@@ -28,6 +30,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
 }
 
 /* -----  First Block ----- */
@@ -38,6 +41,8 @@ body {
     background: var(--yellow);
     border-radius: .8rem;
     margin: 1rem;
+
+    align-items: flex-end;
 }
 
 .container__first-child {
@@ -56,11 +61,14 @@ body {
     background: var(--yellow);
     border-radius: .8rem;
     margin: 1rem;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .container__second-child {
     width: 7.8rem;
-    height: 7.8rem;
+    height: 12rem;
     background: var(--red);
     margin: 1rem;
     border-radius: .2rem;
@@ -74,6 +82,9 @@ body {
     background: var(--yellow);
     border-radius: .8rem;
     margin: 1rem;
+
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .container__third-child {
@@ -92,6 +103,8 @@ body {
     background: var(--yellow);
     border-radius: .8rem;
     margin: 1rem;
+
+    justify-content: space-between;
 }
 
 .container__fourth-child {
@@ -102,6 +115,10 @@ body {
     border-radius: .2rem;
 }
 
+#container__fourth-block    {
+    align-self: flex-end;
+}
+
 /* -----  Fifth Block ----- */
 .container__fifth {
     display: flex;
@@ -110,14 +127,31 @@ body {
     background: var(--yellow);
     border-radius: .8rem;
     margin: 1rem;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .container__fifth-child {
     width: 7.8rem;
-    height: 7.8rem;
+    height: 12rem;
     background: var(--red);
     margin: 1rem;
     border-radius: .2rem;
+}
+
+.container__fifth-child p {
+    color: var(--text);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 14px;
+
+}
+
+#container__fifth-block {
+    height: 6.4rem;
 }
 
 /* -----  Sixth Block ----- */
@@ -128,6 +162,9 @@ body {
     background: var(--yellow);
     border-radius: .8rem;
     margin: 1rem;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .container__sixth-child {
@@ -136,4 +173,8 @@ body {
     background: var(--red);
     margin: 1rem;
     border-radius: .2rem;
+}
+
+#container__sixth-block {
+    width: 15.6rem;
 }
