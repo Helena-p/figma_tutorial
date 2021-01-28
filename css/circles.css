@@ -1,0 +1,22 @@
+/* ----- Css Reset ----- */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* ----- Declaring variables ----- */
+:root {
+    --yellow: #FAA307;
+    --red: #6A040F;
+    --gray: #748CAB;
+    --blue: #03071E;
+}
+
+html,
+body {
+    box-sizing: border-box;
+    background-color: var(--brown);
+}
