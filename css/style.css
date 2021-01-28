@@ -30,7 +30,7 @@ body {
     align-items: center;
 }
 
-/* ----- Blocks ----- */
+/* -----  First Block ----- */
 .container__first {
     display: flex;
     width: 46.8rem;
@@ -40,6 +40,15 @@ body {
     margin: 1rem;
 }
 
+.container__first-child {
+    width: 7.8rem;
+    height: 7.8rem;
+    background: var(--red);
+    margin: 1rem;
+    border-radius: .2rem;
+}
+
+/* -----  Second Block ----- */
 .container__second {
     display: flex;
     width: 46.8rem;
@@ -49,6 +58,7 @@ body {
     margin: 1rem;
 }
 
+/* -----  Third Block ----- */
 .container__third {
     display: flex;
     width: 46.8rem;
@@ -58,6 +68,7 @@ body {
     margin: 1rem;
 }
 
+/* -----  Fourth Block ----- */
 .container__fourth {
     display: flex;
     width: 46.8rem;
@@ -67,6 +78,7 @@ body {
     margin: 1rem;
 }
 
+/* -----  Fifth Block ----- */
 .container__fifth {
     display: flex;
     width: 46.8rem;
@@ -76,6 +88,7 @@ body {
     margin: 1rem;
 }
 
+/* -----  Sixth Block ----- */
 .container__sixth {
     display: flex;
     width: 46.8rem;
