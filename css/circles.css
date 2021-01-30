@@ -25,8 +25,7 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
-    align-items: center;
+    justify-content: center;
     align-content: center;
     height: 100vh;
 }
@@ -134,5 +133,4 @@ body {
     border-radius: 50%;
     background: var(--gray);
     margin: 1rem;
-
 }
