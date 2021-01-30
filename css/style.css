@@ -185,5 +185,5 @@ body {
 }
 
 #container__sixth-block {
-    width: 15.6rem;
+    flex-grow: 0.6;
 }
