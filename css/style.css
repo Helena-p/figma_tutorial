@@ -64,14 +64,14 @@ body {
     margin: 1rem;
 
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 }
 
 .container__second-child {
     width: 7.8rem;
-    height: 12rem;
+    height: auto;
     background: var(--red);
-    margin: 1rem;
+    margin: 2rem 1rem;
     border-radius: .2rem;
 }
 
@@ -130,31 +130,33 @@ body {
     margin: 1rem;
 
     justify-content: space-evenly;
-    align-items: center;
+    align-items: stretch;
 }
 
 .container__fifth-child {
     width: 7.8rem;
-    height: 12rem;
+    height: auto;
     background: var(--red);
-    margin: 1rem;
+    margin: 2rem 1rem;
     border-radius: .2rem;
+
+    display: flex;
+    justify-content:center;
+    align-items: baseline;
 }
 
-.container__fifth-child p {
+.container__fifth-paragraph {
     color: var(--text);
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 14px;
-    text-align: center;
-    align-self: baseline;
-   
 }
 
 #container__fifth-block {
     height: 6.4rem;
+    align-self: center;
     
 }
 
