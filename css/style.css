@@ -51,7 +51,7 @@ body {
     height: 7.8rem;
     background: var(--red);
     margin: 1rem;
-    border-radius: .2rem;
+    border-radius: .4rem;
 }
 
 /* -----  Second Block ----- */
@@ -72,7 +72,7 @@ body {
     height: auto;
     background: var(--red);
     margin: 2rem 1rem;
-    border-radius: .2rem;
+    border-radius: .4rem;
 }
 
 /* -----  Third Block ----- */
@@ -93,7 +93,7 @@ body {
     height: 7.8rem;
     background: var(--red);
     margin: 1rem;
-    border-radius: .2rem;
+    border-radius: .4rem;
 }
 
 /* -----  Fourth Block ----- */
@@ -113,7 +113,7 @@ body {
     height: 7.8rem;
     background: var(--red);
     margin: 1rem;
-    border-radius: .2rem;
+    border-radius: .4rem;
 }
 
 #container__fourth-block    {
@@ -138,11 +138,10 @@ body {
     height: auto;
     background: var(--red);
     margin: 2rem 1rem;
-    border-radius: .2rem;
+    border-radius: .4rem;
 
     display: flex;
     justify-content:center;
-    align-items: baseline;
 }
 
 .container__fifth-paragraph {
@@ -152,12 +151,16 @@ body {
     font-weight: 400;
     font-size: 1.2rem;
     line-height: 14px;
+    padding-top: 3.4rem;
 }
 
 #container__fifth-block {
     height: 6.4rem;
     align-self: center;
-    
+}
+
+#container__fifth-block p {
+    padding-top: 1rem;
 }
 
 /* -----  Sixth Block ----- */
@@ -178,7 +181,7 @@ body {
     height: 7.8rem;
     background: var(--red);
     margin: 1rem;
-    border-radius: .2rem;
+    border-radius: .4rem;
 }
 
 #container__sixth-block {
